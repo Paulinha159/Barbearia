@@ -1,0 +1,54 @@
+Atendimento:
+- Servico: [{
+    Servico_id,
+    nota
+}]
+- Cliente_id
+- horario_Inicio
+- horario_fim (computado)
+- preco (computado)
+- status_pagamento
+
+Servico:
+- nome:
+- preço:
+- barbeiro_id:
+- duraçao_minutos:
+
+Cliente:
+- nome:
+- telefone:
+- email
+- senha
+
+Barbeiro:
+- nome 
+- Barbearia_id
+- foto:
+- bio:
+
+Barbearia:
+nome:
+fotos,
+endereço: {
+    cep,
+    logradouro,
+    bairro,
+    numero,
+    complemento?
+    coordenadas:{
+        latitude,
+        longitude,
+    }
+},
+Rede_id:
+
+Rede/Marca:
+- nome:
+- usuario_id:
+
+Usuario:
+- email
+- senha:
+
+
